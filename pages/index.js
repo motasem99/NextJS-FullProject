@@ -1,5 +1,12 @@
+import { Fragment } from 'react';
+
 function HomePage() {
-  return <p>hello there</p>;
+  return (
+    <Fragment>
+      <Hero />
+      <FeaturedPosts />
+    </Fragment>
+  );
 }
 
 export default HomePage;
